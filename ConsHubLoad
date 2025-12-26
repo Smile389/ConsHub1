@@ -1,0 +1,8 @@
+if game.PlaceId == 3150475059 then
+    -- // FF2
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/4d0442cc798ee90931d1d2fb971284b5.lua"))()
+
+elseif game.PlaceId == 184199275 then
+    -- // UF
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/66fc86e2bc8f11b15937f11a14061cb7.lua"))()
+end
