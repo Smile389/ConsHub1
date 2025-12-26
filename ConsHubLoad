@@ -1,6 +1,7 @@
 if game.PlaceId == 8204899140 or game.PlaceId == 8206123457 or game.PlaceId == 17541256525 then
     loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/4d0442cc798ee90931d1d2fb971284b5.lua"))()
 
+elseif table.find({4940687511, 13834702475, 14801724413, 4822225642, 13415948659, 2338325648, 129992427163618}, game.PlaceId) then
 elseif table.find({4940687511, 13834702475, 14801724413, 4822225642, 13415948659, 2338325648}, game.PlaceId) then
     loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/66fc86e2bc8f11b15937f11a14061cb7.lua"))()
 end
